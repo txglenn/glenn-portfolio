@@ -54,7 +54,7 @@ function Headshot() {
           src="/media/headshots/Glenn.webp"
           alt="Glenn Edwards"
           onError={() => setFailed(true)}
-          className="relative h-56 w-56 rounded-full object-cover object-top ring-1 ring-white/10 sm:h-64 sm:w-64 lg:h-72 lg:w-72"
+          className="relative h-64 w-64 rounded-full object-cover object-top ring-1 ring-white/10 sm:h-72 sm:w-72 lg:h-80 lg:w-80"
         />
       )}
     </div>
@@ -196,7 +196,7 @@ export default function Hero() {
           </div>
 
           {/* ── Headshot column ── */}
-          <motion.div variants={fadeUp} className="shrink-0">
+          <motion.div variants={fadeUp} className="shrink-0 lg:-translate-y-8 lg:-translate-x-6">
             <Headshot />
           </motion.div>
         </motion.div>
