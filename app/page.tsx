@@ -4,8 +4,10 @@ import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Background from "@/components/Background";
 import About from "@/components/About";
+import MediaGallery from "@/components/MediaGallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
   return (
@@ -17,9 +19,11 @@ export default function Home() {
         <Portfolio />
         <About />
         <Background />
+        <MediaGallery />
         <Contact />
       </main>
       <Footer />
+      <Chatbot />
     </>
   );
 }

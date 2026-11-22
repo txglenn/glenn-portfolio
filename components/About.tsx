@@ -27,7 +27,7 @@ export default function About() {
                 <div className="h-32 w-32 shrink-0 rounded-2xl bg-gradient-to-br from-accent/30 via-teal-600/20 to-blue-600/20" />
               ) : (
                 <img
-                  src="/media/headshots/headshot.jpg"
+                  src="/media/headshots/Glenn.webp"
                   alt="Glenn Edwards"
                   onError={() => setPhotoFailed(true)}
                   className="h-32 w-32 shrink-0 rounded-2xl object-cover"
@@ -45,20 +45,21 @@ export default function About() {
                 About
               </p>
               <h2 className="mb-5 text-3xl font-black tracking-tight text-white sm:text-4xl">
-                The person<br />behind the work.
+                Built from<br />real experience.
               </h2>
               <div className="space-y-4 text-[15px] leading-relaxed text-gray-400">
                 <p>
-                  I&apos;m a developer and consultant based in San Marcos, TX, currently
-                  finishing a BBA in Computer Information Systems at Texas State University
-                  (May 2027). I work with small businesses across the Hill Country to build
-                  modern websites and implement AI tools that cut real time out of their
-                  day-to-day.
+                  I&apos;m Glenn — a consultant, personal trainer, and watersports instructor
+                  based in San Marcos, TX. I served as President of the Texas State Wake Team,
+                  where I managed competitions, logistics, and a full roster, and helped host
+                  nationally recognized events on the San Marcos River.
                 </p>
                 <p>
-                  My approach is straightforward: fast turnaround, transparent pricing,
-                  and I handle everything — so you can stay focused on actually running
-                  your business.
+                  Whether it&apos;s fitness programming, leadership, life direction, river surf
+                  instruction, or figuring out what&apos;s actually holding you back — I bring
+                  a longevity-first mindset to every conversation. Web builds for local
+                  businesses are part of what I do too, but the core is people, performance,
+                  and practical results.
                 </p>
               </div>
 
@@ -66,8 +67,8 @@ export default function About() {
               <div className="mt-8 flex flex-wrap gap-3">
                 {[
                   "San Marcos + Hill Country",
-                  "Responds within 24 hrs",
-                  "Available for new projects",
+                  "Trainer at THRC San Marcos",
+                  "Available for new clients",
                 ].map((t) => (
                   <span
                     key={t}
