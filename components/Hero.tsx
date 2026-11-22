@@ -48,13 +48,13 @@ function Headshot() {
         <circle cx="100" cy="100" r="96" stroke="#14b8a6" strokeWidth="1" strokeDasharray="6 8" />
       </svg>
       {failed ? (
-        <div className="relative h-56 w-56 rounded-full bg-gradient-to-br from-indigo-600/30 via-accent/20 to-background sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
+        <div className="relative h-64 w-64 rounded-full bg-gradient-to-br from-indigo-600/30 via-accent/20 to-background sm:h-72 sm:w-72 lg:h-[520px] lg:w-[520px]" />
       ) : (
         <img
           src="/media/headshots/Glenn.webp"
           alt="Glenn Edwards"
           onError={() => setFailed(true)}
-          className="relative h-64 w-64 rounded-full object-cover object-top ring-1 ring-white/10 sm:h-72 sm:w-72 lg:h-80 lg:w-80"
+          className="relative h-64 w-64 rounded-full object-cover object-top ring-1 ring-white/10 sm:h-72 sm:w-72 lg:h-[520px] lg:w-[520px]"
         />
       )}
     </div>
@@ -196,7 +196,7 @@ export default function Hero() {
           </div>
 
           {/* ── Headshot column ── */}
-          <motion.div variants={fadeUp} className="shrink-0 lg:-translate-y-8 lg:-translate-x-6">
+          <motion.div variants={fadeUp} className="shrink-0 lg:-translate-y-16 lg:-translate-x-10">
             <Headshot />
           </motion.div>
         </motion.div>
